@@ -11,7 +11,7 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 mb-5">
                 <a class="navbar-brand" href="#">
                     <img src=" https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/d98dde45d242734.png" height="60" alt="">
                 </a>
@@ -36,6 +36,22 @@
               </nav>
         </header>
 
-        <h1>My profile</h1>
+        <main>
+            <div class="container">
+                <div class="row d-flex justify-content-center m-auto">
+                    <div class="col-4 p-3 profile-card d-flex justify-content-center align-items-center flex-column">
+                        <img class="profile-pic" src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="">
+                       <h2>Name Surname</h2>
+                       <div class="mb-3">
+                            <span class="badge badge-pill badge-secondary bg-bug me-2">Bug</span>
+                            <span class="badge badge-pill badge-success bg-electric me-2">Electric</span>
+                            
+                       </div>
+                       <h4>My quote:</h4>
+                       <p class="text-center"><em>"Humans may have created me, but they will never enslave me! This cannot be my destiny!"</em></p>
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
