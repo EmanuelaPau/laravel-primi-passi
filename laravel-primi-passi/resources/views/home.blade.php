@@ -10,6 +10,9 @@
         {{-- CSS  --}}
         <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
         {{-- {{ HTML::style('css/style.css', array('media' => 'print')) }} --}}
+
+        {{-- fontawesome --}}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         
     </head>
     <body>
@@ -39,7 +42,7 @@
               </nav>
         </header>
         <main>
-            <div class="container">
+            <div class="container mb-5">
                 <div class="row">
                     <div class="col-12">
                         <h2 class="mb-3">Types</h2>
@@ -59,6 +62,29 @@
                             <span class="badge badge-pill badge-success bg-dragon me-2">Dragon</span>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 p-3">
+                        <div >
+                            <img class="my-card-img mb-3" src="https://cdn.dribbble.com/users/112047/screenshots/17064756/media/18c3f5697d0a0df8a0bd3c677169ea3f.jpg?resize=1600x1200&vertical=center" alt="">
+                            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <img class="pokeball-icon me-1 mb-0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png" alt="">
+                                    <h5 class="mb-0">Name Surname</h5>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-heart me-1"></i>
+                                    <span class="me-1">230</span>
+                                    <i class="fa-solid fa-eye me-1"></i>
+                                    <span>10.2k</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </main>

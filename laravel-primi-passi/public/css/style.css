@@ -2,6 +2,16 @@
     font-size: 1.2rem;
 }
 
+.my-card-img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.pokeball-icon {
+    width: 25px;
+    height: 25px;
+}
+
 /* BG colors  */
 
 .bg-normal {
