@@ -42,10 +42,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Types</h2>
-                        <div>
-                            <span class="badge badge-pill badge-secondary">Normal</span>
-                            <span class="badge badge-pill badge-success">Grass</span>
+                        <h2 class="mb-3">Types</h2>
+                        <div class="types">
+                            <span class="badge badge-pill badge-secondary bg-normal me-2">Normal</span>
+                            <span class="badge badge-pill badge-success bg-grass me-2">Grass</span>
+                            <span class="badge badge-pill badge-secondary bg-fire me-2">Fire</span>
+                            <span class="badge badge-pill badge-success bg-water me-2">Water</span>
+                            <span class="badge badge-pill badge-secondary bg-bug me-2">Bug</span>
+                            <span class="badge badge-pill badge-success bg-electric me-2">Electric</span>
+                            <span class="badge badge-pill badge-secondary bg-rock me-2">Rock</span>
+                            <span class="badge badge-pill badge-success bg-ghost me-2">Ghost</span>
+                            <span class="badge badge-pill badge-secondary bg-poison me-2">Poison</span>
+                            <span class="badge badge-pill badge-success bg-psychic me-2">Psyshic</span>
+                            <span class="badge badge-pill badge-secondary bg-fighting me-2">Fighting</span>
+                            <span class="badge badge-pill badge-success bg-ground me-2">Ground</span>
+                            <span class="badge badge-pill badge-success bg-dragon me-2">Dragon</span>
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,57 @@
-body {
-    color: red;
+.types {
+    font-size: 1.2rem;
+}
+
+/* BG colors  */
+
+.bg-normal {
+    background-color: #a8d2e3;
+}
+
+.bg-grass {
+    background-color: #47ab57;
+}
+
+.bg-fire {
+    background-color: #fd7d24;
+}
+
+.bg-water {
+    background-color: #4592c4;
+}
+
+.bg-bug {
+    background-color: #719f3f;
+}
+
+.bg-electric {
+    background-color: #eed535;
+}
+
+.bg-rock {
+    background-color: #a38c21;
+}
+
+.bg-ghost {
+    background-color: #7b62a3;
+}
+
+.bg-poison {
+    background-color: #b97fc9;
+}
+
+.bg-psychic {
+    background-color: #f366b9;
+}
+
+.bg-fighting {
+    background-color: #d56723;
+}
+
+.bg-ground {
+    background-color: #ab9842;
+}
+
+.bg-dragon {
+    background-color: #f06d56;
 }
