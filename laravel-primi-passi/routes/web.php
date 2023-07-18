@@ -26,5 +26,5 @@ Route::get('/about', function () {
 })->name('about');
 
 Route::get('/my-profile', function () {
-    return view('mny-profile');
+    return view('my-profile');
 })->name('my-profile');
