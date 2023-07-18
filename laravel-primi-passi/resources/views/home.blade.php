@@ -7,11 +7,14 @@
 
         {{-- Bootstrap  --}}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+        {{-- CSS  --}}
+        <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
+        {{-- {{ HTML::style('css/style.css', array('media' => 'print')) }} --}}
         
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 mb-3">
                 <a class="navbar-brand" href="#">
                     <img src=" https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/d98dde45d242734.png" height="60" alt="">
                 </a>
@@ -35,14 +38,19 @@
                 </div>
               </nav>
         </header>
-        <h1>
-            Hello World!
-        </h1>
-
-        <h2>
-            {{$username}}
-        </h2>
-        <img class="user-img" src="{{$img}}"/>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Types</h2>
+                        <div>
+                            <span class="badge badge-pill badge-secondary">Normal</span>
+                            <span class="badge badge-pill badge-success">Grass</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
     
 </html>

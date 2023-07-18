@@ -9,7 +9,7 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
                 <a class="navbar-brand" href="#">
                     <img src=" https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/d98dde45d242734.png" height="60" alt="">
                 </a>
@@ -33,6 +33,7 @@
                 </div>
               </nav>
         </header>
+
         <h1>My profile</h1>
     </body>
 </html>
