@@ -67,13 +67,14 @@
 
             <div class="container">
                 <div class="row">
+                    @foreach ($cards as $card)
                     <div class="col-3 p-3">
                         <div >
-                            <img class="my-card-img mb-3" src="https://cdn.dribbble.com/users/112047/screenshots/17064756/media/18c3f5697d0a0df8a0bd3c677169ea3f.jpg?resize=1600x1200&vertical=center" alt="">
+                            <img class="my-card-img mb-3" src="{{$card['img']}}" alt="">
                             <div class="d-flex flex-wrap justify-content-between align-items-center">
                                 <div class="d-flex align-items-center">
                                     <img class="pokeball-icon me-1 mb-0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png" alt="">
-                                    <h5 class="mb-0">Name Surname</h5>
+                                    <h5 class="mb-0">{{$card['name']}} {{$card['surname']}}</h5>
                                 </div>
                                 <div class="d-flex align-items-center">
                                     <i class="fa-solid fa-heart me-1"></i>
@@ -84,6 +85,7 @@
                             </div>
                         </div>
                     </div>
+                    @endforeach
                     
                 </div>
             </div>
